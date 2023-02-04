@@ -1,0 +1,26 @@
+.excercise {
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 8px;
+  background: white;
+  box-shadow: 4px 4px black;
+
+
+  h2 {
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}
