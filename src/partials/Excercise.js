@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Button from "../components/Button";
 
 function Excercise({ name, weight, sets }) {
@@ -5,7 +6,11 @@ function Excercise({ name, weight, sets }) {
     <div className="excercise">
       <header>
         <h2>{name}</h2>
-        <p>Weight: {weight} Sets: {sets}</p>
+        <div>
+          <span>Weight: {weight}</span>
+          <span>Sets: {sets}</span>
+        </div>
+
       </header>
       <div>
         <Button text="Easy" style="green" />
@@ -15,5 +20,18 @@ function Excercise({ name, weight, sets }) {
     </div>
   );
 }
+
+Excercise.defaultProps = {
+  text: "default",
+  weight: 10,
+  sets: 2,
+};
+
+
+Excercise.propTypes = {
+  text: PropTypes.string,
+  weight: PropTypes.number,
+  sets: PropTypes.number,
+};
 
 export default Excercise;
