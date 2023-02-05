@@ -1,26 +1,33 @@
 .excercise {
   border: 1px solid black;
-  padding: 16px;
-  border-radius: 8px;
+  padding: 16px 16px 0 16px;
+  border-radius: 16px;
   margin: 8px;
-  background: white;
-  box-shadow: 4px 4px black;
+  //box-shadow: 4px 4px black;
+  background: linear-gradient(to left, #e66465, green);
 
+  min-width: 400px;
 
   h2 {
     margin: 0;
   }
 
+  p {
+    margin: 0;
+  }
+
   header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 16px;
+    padding: 16px;
   }
 
   div {
+    
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 24px;
   }
 }

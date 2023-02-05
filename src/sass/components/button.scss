@@ -1,35 +1,37 @@
 .btn {
   padding: 12px 24px;
-  border-radius: 40px;
+
   background: #005;
-  color: black;
   font-weight: bold;
   font-size: 20px;
   border: none;
   min-width: 100px;
-  box-shadow: 2px 2px black;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+
+  color: black;
 }
 
 .btn-red {
-  background: red;
+  background: transparent;
 
   &:hover {
-    background: lightgreen
+    background: hsl(0, 80, 50);
   }
 }
 
 .btn-green {
-  background: green;
+  background: transparent;
 
-  &:focus {
-    background: lightgreen
+  &:hover {
+    background: hsl(120, 80, 50);
   }
 }
 
 .btn-orange {
-  background: orange;
+  background: transparent;
 
   &:hover {
-    background: blue
+    background: hsl(35, 80, 50);
   }
 }

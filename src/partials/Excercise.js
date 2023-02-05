@@ -5,8 +5,8 @@ function Excercise({ name, weight, sets }) {
     <div className="excercise">
       <header>
         <h2>{name}</h2>
+        <p>Weight: {weight} Sets: {sets}</p>
       </header>
-      <p>Weight: {weight} Sets: {sets}</p>
       <div>
         <Button text="Easy" style="green" />
         <Button text="Hard" style="orange"></Button>
