@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%; // allows easy font size calc. std font is 16px *.625 = 10px
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem; // set base font size to 16px, while allowing user to resize
+  line-height: 1.5;
+}

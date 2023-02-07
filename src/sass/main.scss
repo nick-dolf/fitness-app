@@ -1,8 +1,11 @@
+@use './abstracts/variables';
+
+@use './base/global';
+@use './base/typography';
+
+@use './components/bar';
 @use './components/button';
 
 @use './partials/excercise';
+@use './partials/add-excercise';
 
-
-body {
-  background: black;
-}
